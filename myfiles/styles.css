@@ -1,0 +1,109 @@
+* {
+	box-sizing:border-box;
+}
+body{
+	display: flex;
+	flex-flow:row wrap;
+	line-height: 1.5em;
+    background-color:#fafad2;
+}
+
+header, article,aside,footer{
+	width: 100%;
+	padding: 0.2em;
+}
+
+header{
+
+}
+header h1{
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: #397d40;
+}
+
+/* visited link */
+a:visited {
+    color: #7e7474;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.mainpage{
+	margin:auto;
+	padding-top:20px;
+	border-top: black 1px solid;
+}
+
+.images img{
+    height: 55px;
+    width: 55px;
+    margin:auto;
+    border: 1px black solid;
+    border-bottom:2px black solid;
+    border-radius:4px;
+
+}
+
+.companies{
+    display:inline-block;
+    margin-bottom:5px;
+    display: grid;
+    height:33px;
+    justify-content: center;
+    border: 0.75px solid;
+    border-radius: 4px;
+    background-color:#d2fad2;
+    padding: 3px;
+}
+
+.companypage{
+	margin:auto;
+	padding-top:20px;
+	border-top: black 1px solid;
+}
+
+.bensinstod{
+    height:33px;
+    background-color:#d2fad2;
+}
+
+tr.bensinstod td{
+	border: 1px solid;
+    border-radius: 3px;
+}
+
+.moreinfopage{
+	margin:auto;
+	padding-top:20px;
+	border-top: black 1px solid;
+}
+
+.moreinfotable{
+	width:100%;
+	margin:0 auto;
+}
+.moreinfopage tr{
+    height:33px;
+    background-color:#d2fad2;
+}
+
+.moreinfopage td{
+	border: 1px solid black;
+    border-radius: 3px;
+}
+
+.homehref{
+text-align: center;
+}
